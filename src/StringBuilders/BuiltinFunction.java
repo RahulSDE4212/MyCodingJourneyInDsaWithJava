@@ -21,15 +21,19 @@ public class BuiltinFunction {
 //        sb.append(tb);
 //        System.out.println(sb);
 //        // sb += "raghav"; // + operator only work with string not with stringbuilder
+        StringBuilder sb = new StringBuilder("rahul");
+        sb.setCharAt(0,'a');
+        System.out.println(sb);
+        System.out.println(sb.length());
 
         /* ********** deleteCharAt() function *********** */
-        StringBuilder a = new StringBuilder("abyx");
-        a.insert(2,'g');
-        System.out.println(a);
-        a.insert(2,67);
-        System.out.println(a);
-        a.reverse();
-        System.out.println(a);
+//        StringBuilder a = new StringBuilder("abyx");
+//        a.insert(2,'g');
+//        System.out.println(a);
+//        a.insert(2,67);
+//        System.out.println(a);
+//        a.reverse();
+//        System.out.println(a);
 
 
 
