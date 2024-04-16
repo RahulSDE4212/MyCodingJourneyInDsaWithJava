@@ -16,5 +16,6 @@ public class ArrayListsTwoD {
         d.add(60);
         List<List<Integer>> l = new ArrayList<>();
         l.add(a); l.add(b); l.add(c); l.add(d);
+        l.get(0).add(1,7);
     }
 }

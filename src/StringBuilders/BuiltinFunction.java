@@ -24,6 +24,7 @@ public class BuiltinFunction {
         StringBuilder sb = new StringBuilder("rahul");
         sb.setCharAt(0,'a');
         System.out.println(sb);
+        sb.reverse();
         System.out.println(sb.length());
 
         /* ********** deleteCharAt() function *********** */
