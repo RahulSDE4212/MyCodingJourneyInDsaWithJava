@@ -18,8 +18,7 @@ public class BubbleSorting {
             arr[i] = sc.nextInt();
         }
         print(arr);
-    /*       bubble sort - 1    */
-//        // bubble sort-1
+    /* *********************************bubble sort - 1  **************************  */
 //        for(int i=1;i<=n-1;i++){ // n-1 passes
 //            for (int j = 0; j < n-1; j++) {
 //                if (arr[j] > arr[j + 1]) {
