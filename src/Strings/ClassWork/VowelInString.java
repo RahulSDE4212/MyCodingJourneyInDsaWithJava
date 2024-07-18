@@ -1,4 +1,4 @@
-package Strings;
+package Strings.ClassWork;
 import java.util.*;
 public class VowelInString {
     public static boolean isVowel(char ch){

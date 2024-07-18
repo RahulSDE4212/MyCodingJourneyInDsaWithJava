@@ -1,4 +1,4 @@
-package Strings;
+package Strings.ClassWork;
 
 public class Interning {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Strings;
+package Strings.ClassWork;
 import java.util.*;
 public class Equals {
     public static void main(String[] args) {

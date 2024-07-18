@@ -1,4 +1,4 @@
-package Strings;
+package Strings.ClassWork;
 
 public class WhyString {
     public static void main(String[] args) {

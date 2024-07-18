@@ -1,4 +1,4 @@
-package Strings;
+package Strings.ClassWork;
 
 public class BuiltInStringMethod {
     public static void main(String[] args) {

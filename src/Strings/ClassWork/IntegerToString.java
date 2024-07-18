@@ -1,13 +1,11 @@
-package Strings;
-
+package Strings.ClassWork;
 import java.util.Scanner;
-
-public class NoOfDigitsInANumber {
+public class IntegerToString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number: ");
+        System.out.println("Enter integer: ");
         int n = sc.nextInt();
         String s = n + "";
-        System.out.println("The no of digits: " + s.length());
+        System.out.println(s);
     }
 }
