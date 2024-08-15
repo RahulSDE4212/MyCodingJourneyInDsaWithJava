@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.ClassWork;
 import java.util.Scanner;
 public class SumParametrized {
     public static void sum(int n, int s){

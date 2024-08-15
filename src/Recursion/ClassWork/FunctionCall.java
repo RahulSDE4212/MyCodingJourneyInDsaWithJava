@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.ClassWork;
 
 public class FunctionCall {
     public static void banana(){

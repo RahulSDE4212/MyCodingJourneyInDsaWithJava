@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.ClassWork;
 import java.util.*;
 public class StairPath1Or2 {
     public static int stair(int n){

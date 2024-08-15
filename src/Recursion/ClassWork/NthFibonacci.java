@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.ClassWork;
 import java.util.*;
 public class NthFibonacci {
     public static int fibonacci(int n){

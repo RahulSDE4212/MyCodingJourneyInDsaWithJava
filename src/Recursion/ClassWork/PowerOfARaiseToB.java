@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.ClassWork;
 import java.util.*;
 public class PowerOfARaiseToB {
     public static int power(int a, int b){
