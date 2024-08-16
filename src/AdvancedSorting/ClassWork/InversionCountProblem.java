@@ -11,6 +11,16 @@ public class InversionCountProblem {
         }
         return count;
     }
+    public static void inversion(int[] a, int[] b){
+        int i=0, j = 0;
+        while(i<a.length && j<b.length){
+            if(a[i]>b[j]){
+                count += a.length-i;
+                j++;
+            }
+            else i++;
+        }
+    }
     public static void print(int[] arr){
         for(int ele: arr){
             System.out.print(ele + " ");
@@ -22,7 +32,7 @@ public class InversionCountProblem {
         while(i<a.length && j<b.length){
             if(a[i]<=b[j]) arr[k++] = a[i++];
             else {
-                count += (n-i);
+                //count += (n-i);
                 arr[k++] = b[j++];
             }
         }
@@ -46,6 +56,8 @@ public class InversionCountProblem {
         // sorting array 'a' and 'b' by using a magic named recursion
         mergeSort(a);
         mergeSort(b);
+        // counting inversion before merging array a and b
+        inversion(a,b);
         // merging sorted array 'a' and 'b' into array 'arr'
         merge(a,b,arr);
     }
