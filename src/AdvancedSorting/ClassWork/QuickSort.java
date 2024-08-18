@@ -42,8 +42,8 @@ public class QuickSort {
         }
     }
     public static void main(String[] args) {
-        int[] arr = {8,4,3,1,2,5,7,6,9};
-        int n = arr.length-1;
+        int[] arr = {8,2,6,4,5,7,1,11,3}; // array that need to be sorted
+        int n = arr.length-1; // last index of the array
         // printing arr before sorting
         print(arr);
         // quick sort function called
