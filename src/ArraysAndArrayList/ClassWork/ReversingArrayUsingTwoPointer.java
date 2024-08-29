@@ -1,7 +1,8 @@
 package ArraysAndArrayList.ClassWork;
 
 import java.util.Scanner;
-
+// time complexity : O(n)
+// space complexity : O(1)
 public class ReversingArrayUsingTwoPointer {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

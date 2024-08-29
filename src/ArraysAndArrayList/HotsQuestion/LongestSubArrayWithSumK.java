@@ -28,7 +28,7 @@ public class LongestSubArrayWithSumK {
 //        }
 //        return maxLength;
 //
-        /* **********Optimized Brute Force Approach ************************/
+        /* **********Optimized brute force approach ************************/
         int length = 0;
         for(int i=0;i<N;i++){
             int sum = 0;
