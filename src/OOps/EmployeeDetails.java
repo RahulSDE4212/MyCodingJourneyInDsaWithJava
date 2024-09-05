@@ -18,10 +18,10 @@ class Employee{
         return eid;
     }
     public String getEname(){
-        this.ename = ename;
+        return ename;
     }
     public int getEage(){
-        this.eage = eage;
+        return eage;
     }
 }
 public class EmployeeDetails {
