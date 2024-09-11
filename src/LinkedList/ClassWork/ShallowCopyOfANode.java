@@ -9,6 +9,12 @@ public class ShallowCopyOfANode {
             temp = temp.next;
         }
     }
+    public static void dLL(Node head){
+        if(head==null) return;
+        Node temp = head; // temp variable is referring to head node
+        System.out.println(temp.val); // printing the value of temp node
+        dLL(temp.next); // calling the recursive function with head updated as temp.next node
+    }
     public static void main(String[] args) {
         Node a = new Node(10);
         Node b = new Node(20);
@@ -19,6 +25,6 @@ public class ShallowCopyOfANode {
         c.next = d;
         Node e = new Node(50);
         d.next = e;
-        displayNode(c);
+        dLL(c);
     }
 }
