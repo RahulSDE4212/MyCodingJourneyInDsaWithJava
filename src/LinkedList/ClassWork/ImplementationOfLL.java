@@ -56,6 +56,27 @@ class SLL{
         temp.next = x.next;
         x.next = temp;
     }
+    int get(int idx) throws Error{
+        if(idx<0 || idx>=size) throw new Error("bhai error aa gya!!!!");
+        if(idx==size-1) return tail.val;
+        if(idx == 0) return head.val;
+        Node temp = head;
+        for(int i=1;i<=idx;i++){
+            temp = temp.next;
+        }
+        return temp.val;
+    }
+    void set(int idx, int val) throws Error{
+        if(idx<0 || idx>=size) throw new Error("bhai kya kar rha hai index to sahi de!!!!!");
+        if(idx==size-1){
+            tail.val = val;
+        }
+        Node temp = head;
+        for(int i=1;i<=idx;i++){
+            temp = temp.next;
+        }
+        temp.val = val;
+    }
 }
 public class ImplementationOfLL {
     public static void main(String[] args) {
@@ -75,6 +96,9 @@ public class ImplementationOfLL {
         list.insert(0,2);
         list.display();
         list.insert(10,45);
+        list.display();
+        System.out.println(list.get(4));
+        list.set(3,8);
         list.display();
     }
 }
