@@ -21,6 +21,16 @@ class SLL{
         head = temp;
         size++;
     }
+    void insertAtTail(int val){
+        if(head==null) {
+            insertAtHead(val);
+            return;
+        }
+        Node temp = new Node(val);
+        tail.next = temp;
+        tail = temp;
+        size++;
+    }
     void display() {
         Node temp = head;
         while(temp != null){
@@ -33,6 +43,7 @@ class SLL{
         temp.val = temp.next.val;
         temp.next = temp.next.next;
     }
+
 }
 public class L237_DeleteNodeInALinkedList {
     public static void main(String[] args) {
