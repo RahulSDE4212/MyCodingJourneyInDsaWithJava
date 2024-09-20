@@ -12,7 +12,7 @@ public class GenerateArrays {
         }
         if(bool){
             for(int k=i;k<A.length;k++){
-                if(ans.size()==0 || A[k]>ans.get(ans.size()-1)) {
+                if(ans.isEmpty() || A[k]>ans.get(ans.size()-1)) {
                     ans.add(A[k]);
                     generateAllArrays(A,B,ans,k+1,j,!bool);
                     if(!ans.isEmpty()) ans.remove(ans.size()-1);
