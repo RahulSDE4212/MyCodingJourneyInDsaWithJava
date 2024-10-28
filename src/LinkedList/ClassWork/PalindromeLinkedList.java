@@ -1,7 +1,7 @@
 package LinkedList.ClassWork;
 import java.util.*;
 public class PalindromeLinkedList {
-    public static boolean isPalindrome(Node head){
+    public static boolean isPalindromeUsingArrayList(Node head){
         ArrayList<Integer> ans = new ArrayList<>();
         Node temp = head;
         while(temp != null){
@@ -24,7 +24,7 @@ public class PalindromeLinkedList {
         list.insertAtTail(20);
         list.insertAtTail(10);
         list.display();
-        boolean bool = isPalindrome(list.head);
+        boolean bool = isPalindromeUsingArrayList(list.head);
         System.out.println(bool);
     }
 }
