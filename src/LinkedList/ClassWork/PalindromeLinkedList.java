@@ -47,6 +47,40 @@ public class PalindromeLinkedList {
         }
         return true;
     }
+    // ******************* Method- 3 *********************************
+    // in this method we have just reversed the second half of the linked list.
+    public static boolean Palindrome(Node head){
+        if(head.next == null) return true;
+        int length = 0;
+        Node temp = head;
+        while(temp != null){
+            length++;
+            temp = temp.next;
+        }
+        int mid = (length-1) / 2;
+        temp = head;
+        for(int i=0;i<=mid;i++){
+            temp = temp.next;
+        }
+        Node pre = null;
+        Node curr = temp;
+        Node next = null;
+        while(curr != null){
+            next = curr.next;
+            curr.next = pre;
+            pre = curr;
+            curr = next;
+        }
+        temp = pre;
+        Node temp1 = head;
+        while(temp!=null){
+            if(temp1.val != temp.val) return false;
+            temp = temp.next;
+            temp1 = temp1.next;
+        }
+        return true;
+
+    }
     public static void main(String[] args) {
         SLL list = new SLL();
         list.insertAtTail(10);
@@ -56,7 +90,7 @@ public class PalindromeLinkedList {
         list.insertAtTail(20);
         list.insertAtTail(10);
         list.display();
-        boolean bool = PalindromeUsingLLDeepCopy(list.head);
+        boolean bool = Palindrome(list.head);
         System.out.println(bool);
     }
 }
