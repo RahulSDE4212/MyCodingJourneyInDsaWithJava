@@ -40,6 +40,5 @@ public class L2130_TwinSum {
         list.insertAtTail(30);
         list.insertAtTail(40);
         list.insertAtTail(50);
-
     }
 }
