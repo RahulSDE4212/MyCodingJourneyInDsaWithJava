@@ -1,4 +1,4 @@
-package Maths;
+package Maths.Leetcode;
 
 public class L68_EliminationGame {
     public static int lastRemaining(int n) {
