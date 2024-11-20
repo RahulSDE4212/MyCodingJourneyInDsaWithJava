@@ -1,6 +1,6 @@
 package ArraysAndArrayList.Leetcode;
 
-public class L2563_CountTheNumberOfFairPairs {
+public class _2563_CountTheNumberOfFairPairs {
     public static  long countFairPairs(int[] nums, int lower, int upper) {
         /*
         *********** Approach 1 : Brute Force **********************

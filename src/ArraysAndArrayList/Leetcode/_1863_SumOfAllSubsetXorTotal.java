@@ -1,6 +1,6 @@
 package ArraysAndArrayList.Leetcode;
 import java.util.*;
-public class L1863_SumOfAllSubsetXorTotal {
+public class _1863_SumOfAllSubsetXorTotal {
     static int finalAns;
     public static int xor(ArrayList<Integer> nums){
         int ans = 0;

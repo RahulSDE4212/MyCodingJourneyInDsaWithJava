@@ -1,6 +1,6 @@
 package ArraysAndArrayList.Leetcode;
 import java.util.*;
-public class L1002_FindCommonCharacters {
+public class _1002_FindCommonCharacters {
     public static void helper(int[] freq,String str){
         for(int i=0;i<str.length();i++){
             char ch = str.charAt(i);

@@ -1,6 +1,6 @@
 package ArraysAndArrayList.Leetcode;
-import java.util.*;
-public class L2373_LargestLocalValueInMatrix {
+
+public class _2373_LargestLocalValueInMatrix {
     public static int maximum(int[][] num, int starti, int startj){
         int max = Integer.MIN_VALUE;
         for(int i=starti;i<=starti+2;i++){

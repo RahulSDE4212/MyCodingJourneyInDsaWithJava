@@ -1,6 +1,6 @@
 package ArraysAndArrayList.Leetcode;
 import java.util.*;
-public class L350_IntersectionOfTwoArraysII {
+public class _350_IntersectionOfTwoArraysII {
     public static int[] intersect(int[] nums1, int[] nums2) {
         /* *************** Appproach-1 : using sorting and two pointers
         * Time complexity  : O(nlogn)
