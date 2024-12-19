@@ -1,8 +1,8 @@
-package Stack.ClassWork;
+package Stack.ClassWork.InfixPrefixPostfix;
 
 import java.util.*;
 
-public class InfixExpressionWithBracket {
+public class EvaluationOfInfixExpressionWithBracket {
     public static void main(String[] args) {
         String str = "(5+3)+(9-(5+(3*(2+4)))+9*3/3)";
         Stack<Integer> number = new Stack<>();
