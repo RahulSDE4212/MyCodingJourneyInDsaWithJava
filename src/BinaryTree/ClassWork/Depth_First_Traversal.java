@@ -1,6 +1,6 @@
 package BinaryTree.ClassWork;
 
-public class Breadth_First_Traversal {
+public class Depth_First_Traversal {
     public static void preOrder(TreeNode root){
         if(root == null) return;
         System.out.print(root.val + " ");
