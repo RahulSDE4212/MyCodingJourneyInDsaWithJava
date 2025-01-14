@@ -23,12 +23,12 @@ public class Breath_First_Traversal {
         }
         System.out.println();
     }
-    public static void nThLevelTraversalUsingPreOrderTraversal(TreeNode root, int level, int lvlTarget){
-        if(root == null) return;
-        if(level == lvlTarget) System.out.print(root.val + " ");
-        nThLevelTraversalUsingPreOrderTraversal(root.left, level + 1, lvlTarget);
-        nThLevelTraversalUsingPreOrderTraversal(root.right, level + 1, lvlTarget);
-    }
+//    public static void nThLevelTraversalUsingPreOrderTraversal(TreeNode root, int level, int lvlTarget){
+//        if(root == null) return;
+//        if(level == lvlTarget) System.out.print(root.val + " ");
+//        nThLevelTraversalUsingPreOrderTraversal(root.left, level + 1, lvlTarget);
+//        nThLevelTraversalUsingPreOrderTraversal(root.right, level + 1, lvlTarget);
+//    }
     public static void nThLevelTraversalUsingInOrderTraversal(TreeNode root, int level, int lvlTarget){
         if(root == null) return;
         nThLevelTraversalUsingInOrderTraversal(root.left, level + 1, lvlTarget);
