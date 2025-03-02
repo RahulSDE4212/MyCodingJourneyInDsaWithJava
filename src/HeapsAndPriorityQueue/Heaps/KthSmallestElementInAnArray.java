@@ -16,7 +16,7 @@ public class KthSmallestElementInAnArray {
 //        }
 //        return pq.peek();
 
-        /* ************** Approach 2: ************************ */
+        /* ************** Approach 3: ************************ */
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
         for(int i = 0; i < arr.length; i++){
             pq.add(arr[i]);

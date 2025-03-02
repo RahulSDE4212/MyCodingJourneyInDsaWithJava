@@ -1,6 +1,6 @@
 package HeapsAndPriorityQueue.Heaps;
 
-import java.util.Arrays;
+import java.util.*;
 
 class Student implements Comparable<Student>{
     int rno;
@@ -11,6 +11,7 @@ class Student implements Comparable<Student>{
         this.name = name;
         this.perc = perc;
     }
+
     public int compareTo(Student S){
         //return this.rno - S.rno; // sorting on the basis of roll no
         //return (int)(this.perc - S.perc); // sorting on the basis of percentage.
@@ -40,4 +41,6 @@ public class CustomComparator {
         // Hence, we use custom comparator with the class of the object. Here with the class Student.
         print(s);
     }
+
+ 
 }
