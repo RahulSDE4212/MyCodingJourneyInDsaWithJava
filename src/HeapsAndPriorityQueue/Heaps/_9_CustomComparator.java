@@ -2,23 +2,23 @@ package HeapsAndPriorityQueue.Heaps;
 
 import java.util.*;
 
-class Student implements Comparable<Student>{
-    int rno;
-    String name;
-    double perc;
-    Student(int rno, String name, double perc){
-        this.rno = rno;
-        this.name = name;
-        this.perc = perc;
-    }
+public class _9_CustomComparator {
+    public static class Student implements Comparable<Student>{
+        int rno;
+        String name;
+        double perc;
+        Student(int rno, String name, double perc){
+            this.rno = rno;
+            this.name = name;
+            this.perc = perc;
+        }
 
-    public int compareTo(Student S){
-        //return this.rno - S.rno; // sorting on the basis of roll no
-        //return (int)(this.perc - S.perc); // sorting on the basis of percentage.
-        return this.name.charAt(0) - S.name.charAt(0);
+        public int compareTo(Student S){
+            //return this.rno - S.rno; // sorting on the basis of roll no
+            //return (int)(this.perc - S.perc); // sorting on the basis of percentage.
+            return this.name.charAt(0) - S.name.charAt(0);
+        }
     }
-}
-public class CustomComparator {
     public static void print(Student[] arr){
         for(int i = 0; i < arr.length; i++){
             System.out.print(arr[i].name + " ");

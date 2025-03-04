@@ -2,10 +2,9 @@ package HeapsAndPriorityQueue.Heaps;
 
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.PrimitiveIterator;
 import java.util.PriorityQueue;
 
-public class KClosestToOrigin {
+public class _8_KClosestToOrigin {
     public static class Triplet implements Comparable<Triplet>{
         int d;
         int x;

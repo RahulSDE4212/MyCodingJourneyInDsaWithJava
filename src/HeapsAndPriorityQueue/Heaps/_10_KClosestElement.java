@@ -1,6 +1,6 @@
 package HeapsAndPriorityQueue.Heaps;
 import java.util.*;
-public class KClosestElement {
+public class _10_KClosestElement {
     public static class Pair implements Comparable<Pair>{
         int dist;
         int ele;

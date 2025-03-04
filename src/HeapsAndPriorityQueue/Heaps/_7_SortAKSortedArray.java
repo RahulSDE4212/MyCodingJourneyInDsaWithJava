@@ -1,6 +1,6 @@
 package HeapsAndPriorityQueue.Heaps;
 import java.util.*;
-public class SortAKSortedArray {
+public class _7_SortAKSortedArray {
     public static void sort(int[] arr, int k){
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         int index = 0;

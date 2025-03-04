@@ -1,6 +1,6 @@
 package HeapsAndPriorityQueue.Heaps;
 import java.util.PriorityQueue;
-public class MinHeap {
+public class _1_BasicsHeapCollectionFramework {
     public static void main(String[] args) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         pq.add(2); // add an element in the heap.

@@ -2,7 +2,7 @@ package HeapsAndPriorityQueue.Heaps;
 
 import java.util.PriorityQueue;
 
-public class IsDuplicateAllowedInHeap {
+public class _4_IsDuplicateAllowedInHeap {
     public static void main(String[] args) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         pq.add(1);

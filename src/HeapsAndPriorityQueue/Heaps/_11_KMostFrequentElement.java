@@ -3,7 +3,7 @@ package HeapsAndPriorityQueue.Heaps;
 import java.util.HashMap;
 import java.util.PriorityQueue;
 
-public class KMostFrequentElement {
+public class _11_KMostFrequentElement {
     public static class Pair implements Comparable<Pair>{
         int key;
         int val;

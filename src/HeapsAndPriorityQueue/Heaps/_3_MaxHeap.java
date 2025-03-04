@@ -1,8 +1,9 @@
 package HeapsAndPriorityQueue.Heaps;
+import java.util.Collections;
 import java.util.PriorityQueue;
-public class BasicsHeapCollectionFramework {
+public class _3_MaxHeap {
     public static void main(String[] args) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
         pq.add(2); // add an element in the heap.
         System.out.println(pq + " " + pq.peek()); // pq.peek() -> return element on the top of heap.
         pq.add(10);

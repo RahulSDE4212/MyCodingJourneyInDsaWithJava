@@ -2,7 +2,7 @@ package HeapsAndPriorityQueue.Heaps;
 
 import java.util.PriorityQueue;
 
-public class MinimumCostToConnectAllRopes {
+public class _14_MinimumCostToConnectAllRopes {
     public static int minCost(int[] arr) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         int cost = 0;

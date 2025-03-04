@@ -1,6 +1,6 @@
 package HeapsAndPriorityQueue.Heaps;
 import java.util.*;
-public class LastStoneWeight {
+public class _13_LastStoneWeight {
     public static class Pair implements Comparable<Pair>{
         int key;
         int ind;

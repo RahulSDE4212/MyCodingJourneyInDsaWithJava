@@ -1,6 +1,6 @@
 package HeapsAndPriorityQueue.Heaps;
 import java.util.*;
-public class KthSmallestElementInAnArray {
+public class _5_KthSmallestElementInAnArray {
     public static int kthSmallest(int[] arr, int k) {
         /* ************** Approach 1: ************************ */
 //        Arrays.sort(arr);

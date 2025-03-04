@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.PriorityQueue;
 
-public class SortArrayByIncreasingFreq {
+public class _12_SortArrayByIncreasingFreq {
     public static class Pair implements Comparable<Pair>{
         int key;
         int val;
