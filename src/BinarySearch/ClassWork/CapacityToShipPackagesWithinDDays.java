@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.ClassWork;
 
 public class CapacityToShipPackagesWithinDDays {
     public static boolean isPossible(int mid,int[]arr,int d){
