@@ -1,4 +1,4 @@
-package Week_15_LinkedList.ClassWork;
+package Week_15_LinkedList.SinglyLinkedList;
 
 public class L92_ReverseLinkedListII {
     public static void reverse(Node b){

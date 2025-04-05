@@ -1,4 +1,4 @@
-package Week_15_LinkedList.ClassWork;
+package Week_15_LinkedList.SinglyLinkedList;
 import java.util.*;
 public class PalindromeLinkedList {
     public static boolean isPalindromeUsingArrayList(Node head){

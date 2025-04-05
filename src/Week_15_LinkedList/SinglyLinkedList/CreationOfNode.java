@@ -1,4 +1,4 @@
-package Week_15_LinkedList.ClassWork;
+package Week_15_LinkedList.SinglyLinkedList;
 class Node{
     int val;
     Node next;

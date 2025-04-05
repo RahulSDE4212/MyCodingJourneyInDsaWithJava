@@ -1,4 +1,4 @@
-package Week_15_LinkedList.ClassWork;
+package Week_15_LinkedList.SinglyLinkedList;
 
 public class L2130_TwinSum {
     public static Node reverse(Node head){

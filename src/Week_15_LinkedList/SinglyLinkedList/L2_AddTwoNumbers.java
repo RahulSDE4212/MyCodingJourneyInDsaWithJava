@@ -1,4 +1,4 @@
-package Week_15_LinkedList.ClassWork;
+package Week_15_LinkedList.SinglyLinkedList;
 
 public class L2_AddTwoNumbers {
     public static  Node addTwoNumbers(Node l1, Node l2) {

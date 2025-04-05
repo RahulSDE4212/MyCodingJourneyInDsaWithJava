@@ -1,4 +1,4 @@
-package Week_15_LinkedList.ClassWork;
+package Week_15_LinkedList.SinglyLinkedList;
 
 public class L1669_MergeInBtwLinkedList {
     public static Node mergeInBetween(Node list1, int a, int b, Node list2) {
