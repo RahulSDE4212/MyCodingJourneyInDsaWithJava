@@ -1,4 +1,4 @@
-package Week_23_SlidingWindow;
+package Week_23_SlidingWindow.ClassWork;
 import java.util.*;
 public class _2_NumberOfSubArraysOfSizeK {
     public static int numOfSubarrays(int[] arr, int k, int threshold) {

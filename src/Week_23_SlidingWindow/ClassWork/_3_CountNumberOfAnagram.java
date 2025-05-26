@@ -1,4 +1,4 @@
-package Week_23_SlidingWindow;
+package Week_23_SlidingWindow.ClassWork;
 
 import java.util.HashMap;
 

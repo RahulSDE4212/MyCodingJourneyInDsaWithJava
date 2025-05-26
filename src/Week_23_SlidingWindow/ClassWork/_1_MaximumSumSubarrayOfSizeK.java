@@ -1,4 +1,4 @@
-package Week_23_SlidingWindow;
+package Week_23_SlidingWindow.ClassWork;
 
 public class _1_MaximumSumSubarrayOfSizeK {
     public static void main(String[] args) {
