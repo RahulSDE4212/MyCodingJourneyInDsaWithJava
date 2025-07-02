@@ -1,6 +1,6 @@
-package Week_24_DynamicProgramming;
+package Week_24_DynamicProgramming.Leetcode;
 
-public class _5_HouseRobberI {
+public class HouseRobberI {
     /*
         Approach: Recursive approach
         Time Complexity: O(2^n)

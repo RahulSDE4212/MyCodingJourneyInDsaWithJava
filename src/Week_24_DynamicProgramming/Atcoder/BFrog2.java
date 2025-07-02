@@ -1,9 +1,9 @@
-package Week_24_DynamicProgramming;
+package Week_24_DynamicProgramming.Atcoder;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class _2_BFrog2 {
+public class BFrog2 {
     static int[] h;
     static int k;
     static int[] dp;

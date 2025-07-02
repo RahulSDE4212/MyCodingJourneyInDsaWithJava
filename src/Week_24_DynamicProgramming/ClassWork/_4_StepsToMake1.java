@@ -1,8 +1,8 @@
-package Week_24_DynamicProgramming;
+package Week_24_DynamicProgramming.ClassWork;
 
 import java.util.Arrays;
 
-public class _6_StepsToMake1 {
+public class _4_StepsToMake1 {
     public static int fRecursive(int n){
         if(n == 1) return 0;
         if(n == 2 || n == 3) return 1;

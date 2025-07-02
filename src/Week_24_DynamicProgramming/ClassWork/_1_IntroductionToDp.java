@@ -1,4 +1,4 @@
-package Week_24_DynamicProgramming;
+package Week_24_DynamicProgramming.ClassWork;
 
 /*
 💥 FULL DOCUMENTATION ON DYNAMIC PROGRAMMING (DP) 💥

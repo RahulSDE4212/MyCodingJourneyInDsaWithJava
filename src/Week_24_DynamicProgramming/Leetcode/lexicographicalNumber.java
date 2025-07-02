@@ -1,9 +1,9 @@
-package Week_24_DynamicProgramming;
+package Week_24_DynamicProgramming.Leetcode;
 import java.util.*;
 
 
 
-public class _4_lexicographicalNumber {
+public class lexicographicalNumber {
     static ArrayList<Integer> answer;
     public static void solve(int i, int n){
         if(i > n) return;
