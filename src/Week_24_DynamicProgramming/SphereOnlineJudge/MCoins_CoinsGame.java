@@ -1,4 +1,4 @@
-package Week_24_DynamicProgramming.ClassWork;
+package Week_24_DynamicProgramming.SphereOnlineJudge;
 
 import java.util.Scanner;
 
